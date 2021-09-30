@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lab2</title>
+  <title>Lab4</title>
   <link rel="stylesheet" href="index.css">
+  <link rel
 </head>
 <body>
  <header class="banner">
@@ -10,10 +11,8 @@
    <div class="menu">
     <ul id="navbar">
      <p id="content-p">Content</p>
-     <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#about-bradd">Bradd</a></li>
-      <li><a href="#about-miranda">Miranda</a></li>
-      <li><a href="#about-tom">Thomas</a></li>
+     <li><a href="#count">Count</a></li>
+      <li><a href="test.html">Test</a></li>
     </ul>
    </div>
  </nav>
@@ -21,82 +20,23 @@
     <div>
      <a class="logo" href="index.html">
       <img class ="bannerimg" src="img/logotype.jpg" alt="Logotype">
-      <h1 class = "banner-h1">ACTORS</h1>
+      <h1 class = "banner-h1">LAB4</h1>
      </a>
     </div>
   </header>
   
-  <form>
-    <div class="container">
-      <h2 class="enter-h2">Enter</h2>
-      <p class="enter-p">Please fill in this form to enter to the site.</p>
-      <hr>
-  
-      <label for="email"><b class="enter-b">Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-  
-      <label for="psw"><b class="enter-b">Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-      <hr>
-  
-      <button type="submit" class="enterbtn">Enter</button>
-    </div>
-  
-    <div class="container enter">
-      <p>Need to create account? <a href="#">Registration</a>.</p>
-    </div>
-  </form>
-    
-  <section>
-    <h2 class="intro" id="introduction"> Introduction </h2>
-    <p class="intro">This site will contain information about lives of actors</p>
-  <section>
-    
-  <section>
-    <h2 id="about-bradd">Brad Pitt</h2>
-    <img src="img/bradd.jpg" alt="bradd-photo">
-    <p class="bradd-p">William Bradley Pitt (born December 18, 1963) is an American actor and film producer. He is the recipient of multiple accolades, including two Golden Globe Awards and an Academy Award for his acting, in addition to another Academy Award, another Golden Globe Award and a Primetime Emmy Award as a producer under his production company, Plan B Entertainment.Pitt first gained recognition as a cowboy hitchhiker in the road film Thelma & Louise (1991). His first leading roles in big-budget productions came with the drama films A River Runs Through It (1992) and Legends of the Fall (1994), and the horror film Interview with the Vampire (1994). He gave critically acclaimed performances in the crime thriller Seven (1995) and the science fiction film 12 Monkeys (1995), the latter earning him a Golden Globe Award for Best Supporting Actor and an Academy Award nomination.</p>
-    <a href="#content">Back to the content</a>
-    <br>
-    <a href="bradd.html">More about Bradd Pitt</a>
-    </section>
-    
-  <section>
-    <h2 id="about-miranda">Miranda Taylor Cosgrove</h2>
-    <img class="img-m" src="img/miranda.jpg" alt="miranda-photo">
-    <p class="miranda-p">Miranda Taylor Cosgrove (born May 14, 1993)is an American actress and singer. She has received several accolades, including two Young Artist Awards, a Kids' Choice Award and two Daytime Emmy Award nominations, and was listed in the Guinness World Records as the highest paid child actress of 2012.Cosgrove's career began at age seven with several appearances in television commercials, and she made her film debut playing Summer Hathaway in Richard Linklater's School of Rock (2003). She appeared in a number of minor television roles over the next few years before gaining prominence for her work on Nickelodeon, starring as Megan Parker on the television series Drake & Josh (2004–2007) and as Carly Shay in the teen sitcom iCarly (2007–2012), the latter of which earned her widespread recognition. She now reprises the role as an adult Carly Shay on the Paramount+ revival series iCarly (2021–present). Cosgrove also voices Margo in the animated film series Despicable Me (2010–present) and hosts the television show Mission Unstoppable with Miranda Cosgrove (2019–present). </p>
-    <a href="#content">Back to the content</a>
-    <br>
-    <a href="miranda.html">More about Miranda Cosgrove</a>
-  </section>
-    
-  <section>
-    <h2 id="about-tom">Thomas Stanley Holland</h2>
-    <img class="img-t" src="img/tom.jpg" alt="tom-photo">
-    <p class="tom-p">Thomas Stanley Holland (born 1 June 1996)[1] is an English actor. A graduate of the BRIT School for Performing Arts and Technology in London, he began his acting career on London stage in the title role of Billy Elliot the Musical in the West End theatre from 2008 to 2010. He then starred in the disaster film The Impossible (2012), for which he received a London Film Critics Circle Award for Young British Performer of the Year. </p>
-    <a href="#content">Back to the content</a>
-    <br>
-    <a href="tom.html">More about Thomas Holland</a>
-  </section>
+<h2 id="count">Count</h2>
 
-  <section class="contacts-us">
-    <div class="contacts-info">
-     <h2 id="contacts" class="contacts-h2">CONTACTS</h2>
-     <p class="contacts-subtitle">CONTACT US ANYTIME</p>
-     <p class="contacts-top-p">Feel free to contact us for any inquiries or commercial offers:</p>
-     <h3 class="contacts-h3">Address</h3> 
-     <p class="contacts-p">44670 Mattole Rd, Honeydew,</p> 
-     <p class="contacts-p">CA 95545</p>
-     <h3 class="contacts-h3">Hours</h3>
-     <p class="contacts-p">Monday - Saturday: 11 AM - 9 PM</p> 
-     <p class="contacts-p">Sunday: 11 AM - 7 PM</p>
-     <h3 class="contacts-h3">Contacts</h3>
-     <p class="contacts-p"><a href="tel:+1(234)5678900">+1(234)5678900</a>
-      <br>
-      <a href="mailto:actors@email.com">actors@email.com</a>
-     </p>
-    </div>
-  </section>
+  <form name="form1">
+    <h3>Введіть значення сторони квадрата/радіуса/катета: </h3> а=<input type="text" name="a" size=10>
+    <hr>
+    <input id="kv" type="radio" name="fv"  onClick="ds()">Площа квадрата<br> 
+    <input id="kr" type="radio" name="fv"  onClick="ds()">Площа круга<br> 
+    <input id="tr" type="radio" name="fv"  onClick="ds()">Площа прямокутного трикутника<br>
+    <input id="l" type="radio" name="fv"  onClick="ds()">Довжина кола<br>
+    <input id="v" type="radio" name="fv"  onClick="ds()">Об'єм кулі <br>
+    <input type="reset" name="reset" value="Очистити дані"><hr> Площа: <input id="res" type="text" name="res" size=10>
+  </form>
 
   <footer class="footercontainer">
     <div class=footer>
@@ -106,10 +46,8 @@
     </div>
    <h2 class="footerheader">Actors</h2>
     <div class="footermenu">
-      <a href="#introduction">Introduction</a>
-      <a href="#about-bradd">Brad Pitt</a>
-      <a href="#about-miranda">Miranda Taylor Cosgrove</a>
-      <a href="#about-tom">Thomas Stanley Holland</a>
+      <a href="#count">Count</a>
+      <a href="test.html">Test</a>
     </div>
 
     <div class="footercreatedby">
@@ -118,4 +56,6 @@
      <p> All rights Reserved</p>
     </div>
   </footer>
+</body>
+<script src="count.js"></script>
 </html>
