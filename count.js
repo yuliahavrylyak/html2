@@ -8,7 +8,7 @@ function ds() {
     R = 2 * 3.14 * r;
     break;
     case 'v':
-    R = (4 / 3) * 3.14 * r*r*r;
+    R = (4 / 3) * 3.14 * r;
     break;
     case 'kv':
     R = r * r; break;
